@@ -1,4 +1,6 @@
-﻿
+﻿body {
+    background-color: #D3DBDB;
+}
 .top {
      padding: 10px;
     max-height: 10%;
@@ -22,3 +24,4 @@
     height: 74px;
     width: 881px;
 }
+header{background-color: #D3DBDB}
