@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FinalMaster.master.cs" Inherits="FinalMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1 {
+            width: 1473px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:TreeView ID="TreeView1" runat="server">
+        </asp:TreeView>
+
+        <asp:Table ID="Table1" runat="server">
+            <asp:TableRow runat="server">
+                <asp:TableCell runat="server"><asp:Label ID="Label2" runat="server" Text="This will be where the page header will go"></asp:Label></asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow runat="server">
+                <asp:TableCell runat="server"> <asp:TreeView ID="TreeView2" runat="server">
+        </asp:TreeView></asp:TableCell>
+                <asp:TableCell runat="server">  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder></asp:TableCell>
+            </asp:TableRow>
+            
+        </asp:Table>
+      
+    </form>
+</body>
+</html>
