@@ -7,30 +7,41 @@
     <title></title>
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+ <link href="Styles.css" rel="stylesheet" type="text/css" />
+   
     <style type="text/css">
-        #form1 {
-            width: 1473px;
+        .auto-style1 {
+            height: 195px;
+            width: 959px;
         }
     </style>
+   
 </head>
 <body>
-    <form id="form1" runat="server">
-        <asp:TreeView ID="TreeView1" runat="server">
-        </asp:TreeView>
-
-        <asp:Table ID="Table1" runat="server">
-            <asp:TableRow runat="server">
-                <asp:TableCell runat="server"><asp:Label ID="Label2" runat="server" Text="This will be where the page header will go"></asp:Label></asp:TableCell>
-            </asp:TableRow>
-            <asp:TableRow runat="server">
-                <asp:TableCell runat="server"> <asp:TreeView ID="TreeView2" runat="server">
-        </asp:TreeView></asp:TableCell>
-                <asp:TableCell runat="server">  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder></asp:TableCell>
-            </asp:TableRow>
+   
+        <form id="form1" runat="server">
+          <div id ="top" class ="top">
+              <img alt="header" class="auto-style1" src="images/fractal.jpg" />
+          </div>
+           <div id ="left" class ="left">
+           </div>
+        <div id="main" class ="main">
+        <asp:ContentPlaceHolder id="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
             
-        </asp:Table>
+            
+ 
+                <asp:Menu ID="Menu2" runat="server">
+            </asp:Menu>
+            
+            
+ 
+        </form>
+     
       
-    </form>
+  
+    
+        
 </body>
 </html>

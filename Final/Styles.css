@@ -1,0 +1,24 @@
+﻿
+.top {
+     padding: 10px;
+    max-height: 10%;
+}
+
+.left{
+    left:0px;
+    position: fixed;
+    top: 60px;
+    margin-top: 10px;
+    left: 0px;
+}
+.main
+{
+   position: fixed;
+   right:-15px;
+   text-align: left;
+    margin-left: 250px;
+    padding: 10px;
+    top: 232px;
+    height: 74px;
+    width: 881px;
+}
