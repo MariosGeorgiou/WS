@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FinalMaster.master" AutoEventWireup="true" CodeFile="GIHotel.aspx.cs" Inherits="GIHotel" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FinalMaster.master" CodeFile="GIHotel.aspx.cs" AutoEventWireup="true"  Inherits="GIHotel" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -20,8 +20,8 @@
     </asp:DropDownList>
     <br />
     <br />
-    <asp:RadioButton ID="RadioButton1" runat="server" title="smoking" Text="Smoking"/>
-    <asp:RadioButton ID="RadioButton2" runat="server" title="smoking" Text="Non-Smoking"/>
+    <asp:RadioButton ID="RadioButton1" runat="server" Text="Smoking"/>
+    <asp:RadioButton ID="RadioButton2" runat="server" Text="Non-Smoking"/>
 
     <br />
     <br />

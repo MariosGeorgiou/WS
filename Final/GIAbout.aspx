@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FinalMaster.master" AutoEventWireup="true" CodeFile="GIAbout.aspx.cs" Inherits="GIABout" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FinalMaster.master" CodeFile="GIAbout.aspx.cs" AutoEventWireup="true" Inherits="_GIAbout" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

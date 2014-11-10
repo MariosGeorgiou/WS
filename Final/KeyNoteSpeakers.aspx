@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="KeyNoteSpeakers.aspx.cs" MasterPageFile="~/FinalMaster.master" Inherits="KeyNoteSpeakers" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FinalMaster.master" CodeFile="KeyNoteSpeakers.aspx.cs" AutoEventWireup="true" Inherits="KeyNoteSpeakers" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
