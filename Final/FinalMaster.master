@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FinalMaster.master.cs" Inherits="FinalMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FinalMaster.master.cs" Inherits="FinalMaster" ClientIDMode="Static" %>
 
 <!DOCTYPE html>
 
