@@ -33,6 +33,9 @@
             
  
                 <asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource1">
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                    </DynamicItemTemplate>
             </asp:Menu>
             
             
