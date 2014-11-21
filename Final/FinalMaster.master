@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FinalMaster.master.cs" Inherits="FinalMaster" ClientIDMode="Static" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FinalMaster.master.cs" Inherits="FinalMaster"%>
 
 <!DOCTYPE html>
 
@@ -24,6 +24,11 @@
               <img alt="header" class="auto-style1" src="images/fractal.jpg" />
           </div>
            <div id ="left" class ="left">
+               <asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource1">
+                    <DynamicItemTemplate>
+<%# Eval("Text") %>
+                    </DynamicItemTemplate>
+            </asp:Menu>
            </div>
         <div id="main" class ="main">
         <asp:ContentPlaceHolder id="MainContent" runat="server">
@@ -32,11 +37,7 @@
             
             
  
-                <asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource1">
-                    <DynamicItemTemplate>
-<%# Eval("Text") %>
-                    </DynamicItemTemplate>
-            </asp:Menu>
+                
             
             
  
