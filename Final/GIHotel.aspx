@@ -3,7 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
-    <div>Hotel Rates:</div>
+   <form id="form1" runat="server">
+     <div>Hotel Rates:</div>
     <asp:BulletedList ID="BulletedList1" runat="server">
         <asp:ListItem>Standard: $139 / night</asp:ListItem>
         <asp:ListItem>Early Bird: $119 / night</asp:ListItem>
@@ -47,7 +48,7 @@
         </asp:TableRow>
     </asp:Table>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Book Room" />
-    
+    </form>
     
     
 </asp:Content>

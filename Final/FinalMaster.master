@@ -11,7 +11,7 @@
    
 </head>
 <body>
-    <form id="form1" runat="server">
+    
         <header>
             <strong>test header</strong>
         </header>
@@ -35,7 +35,7 @@
         <footer>
             <strong>test footer</strong>
         </footer>
-    </form>
+    
 
 </body>
 </html>
