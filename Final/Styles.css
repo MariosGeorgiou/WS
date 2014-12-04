@@ -1,7 +1,7 @@
 ﻿body {
     background-color: #D3DBDB;
-    width:1400px;
-
+    width:1200px;
+    align-content:center;
 }
 header{
     width:1000px; 
@@ -32,6 +32,7 @@ article{
 
 footer{
     width:1000px; 
+    min-height:50px;
     background-color:#FF8C00;
     clear:both;
     text-align:center;
