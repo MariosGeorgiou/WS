@@ -13,7 +13,7 @@
 <body>
      <form id="form1" runat="server">
         <header>
-            <strong>test header</strong>
+            <strong>est header<img src="images/title-1.jpg" style="height: 148px; width: 1199px; margin-left: 0px; margin-top: 0px" /></strong>&nbsp;
         </header>
 
         <nav>

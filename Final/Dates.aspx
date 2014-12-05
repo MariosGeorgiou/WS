@@ -12,6 +12,7 @@
     <br />
 <div>July 19th, 2015: Conference Starts</div>
    <br />
-<div>July 24th, 2015: Conference Ends</div>
+<div>July 24th, 2015: Conference Ends</div>
+
 </asp:Content>
 
