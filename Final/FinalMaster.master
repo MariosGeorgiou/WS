@@ -11,22 +11,25 @@
    
 </head>
 <body>
+     <form id="form1" runat="server">
         <header>
             <strong>test header</strong>
         </header>
 
         <nav>
             <strong>menu</strong>
-            <asp:ContentPlaceHolder id="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-           <form id="form1" runat="server">
+            
+          
+          
             <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1">
                    <DynamicItemTemplate><%# Eval("Text") %></DynamicItemTemplate>
             </asp:Menu>
-           </form>
+           
         </nav>
 
         <article>
+            <asp:ContentPlaceHolder id="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
             <strong>test section</strong>
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
@@ -36,6 +39,6 @@
         <footer>
             <strong>test footer</strong>
         </footer>
-
+    </form>
 </body>
 </html>

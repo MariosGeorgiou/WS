@@ -4,8 +4,6 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
-          <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/GIFee.aspx">Cost</asp:HyperLink>
-          <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/GIHotel.aspx">Book Hotel Room</asp:HyperLink>
-          <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/GIAbout.aspx">About Us</asp:HyperLink>
+          
 </asp:Content>
 

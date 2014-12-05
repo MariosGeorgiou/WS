@@ -1,19 +1,22 @@
 ﻿body {
-    background-color: #D3DBDB;
-    width:1200px;
+    background-color: #391412;
+    width:1300px;
     align-content:center;
+    margin: 0 auto; 
 }
 header{
-    width:1000px; 
+    width:1200px; 
     height:120px;
     background-color: #1E90FF;
+    margin: 0 auto; 
 }
 
 nav{
-    width:1000px; 
+    width:1200px; 
     height:50px;
     background-color:#98FB98;
     text-align:center;
+    margin: 0 auto; 
 }
 
 .menu{
@@ -24,16 +27,17 @@ nav{
     color: blue;
 }
 article{
-    width:1000px; 
+    width:1200px; 
     min-height:400px;
-    padding:10px;
     background-color:#7FFF00;
+    margin: 0 auto; 
 }
 
 footer{
-    width:1000px; 
+    width:1200px; 
     min-height:50px;
     background-color:#FF8C00;
     clear:both;
     text-align:center;
+    margin: 0 auto; 
 }
