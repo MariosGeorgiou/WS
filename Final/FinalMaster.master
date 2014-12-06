@@ -9,11 +9,19 @@
     </asp:ContentPlaceHolder>
     <link href="Styles.css" rel="stylesheet" type="text/css" />
    
+    <style type="text/css">
+        .auto-style1 {
+            width: 1198px;
+            height: 165px;
+        }
+    </style>
+   
 </head>
 <body>
      <form id="form1" runat="server">
         <header>
-            <strong>est header<img src="images/title-1.jpg" style="height: 148px; width: 1199px; margin-left: 0px; margin-top: 0px" /></strong>&nbsp;
+            <strong>
+            <img alt="" class="auto-style1" src="images/IT-1.jpg" />est header</strong>&nbsp;
         </header>
 
         <nav>
