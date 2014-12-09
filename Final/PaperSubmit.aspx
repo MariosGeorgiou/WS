@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
-    <form id="form1" runat="server">
+    
     <asp:Label ID="title" runat="server">Title of Paper</asp:Label><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     <br />
     <asp:Label ID="Label1" runat="server">Topic of Paper</asp:Label><asp:DropDownList ID="DropDownList1" runat="server">
@@ -16,6 +16,6 @@
     <asp:Label ID="Label6" runat="server">Address</asp:Label><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox><br />
     <asp:Label ID="Label7" runat="server">Email</asp:Label><asp:TextBox ID="TextBox6" runat="server"></asp:TextBox><br />
     <asp:Button ID="Button1" runat="server" Text="Upload" />
-        </form>
+
 </asp:Content>
 
