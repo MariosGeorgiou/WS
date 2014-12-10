@@ -4,11 +4,12 @@
 
     <siteMapNode url="KeyNoteSpeakers.aspx" title="Keynote Speakers"  description="" />
     <siteMapNode url="GeneralInformation.aspx" title="General Information"  description="" >
-      <siteMapNode url="GIHotel.aspx" title="Hotel Information"/>
+     
+  
       <siteMapNode url="GIFee.aspx" title="Conference Fee"/>
    
     </siteMapNode>
-    <siteMapNode url="CallForPaper.aspx" title="Call For Paper"  description="" />
+    <siteMapNode url="CallForPaper.aspx" title="Hotel"  description="" />
     <siteMapNode url="Dates.aspx" title="Important Dates"/>
     <siteMapNode url="MajorAreas.aspx" title="Major Areas"/>
     <siteMapNode url="PaperSubmit.aspx" title="Paper Submission"/>
