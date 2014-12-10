@@ -12,7 +12,10 @@
     <br />
     <asp:Label ID ="test" runat="server"></asp:Label>
     <br />
-         <asp:Button title="Submit" runat="server" Text="Login" OnClick="Unnamed5_Click" />
+         <asp:Button  runat="server" Text="Login" OnClick="Unnamed5_Click" />
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Button1" runat="server" Text="Register" OnClick="Button1_Click" />
   
     </asp:Content>
 

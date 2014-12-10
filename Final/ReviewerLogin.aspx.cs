@@ -49,6 +49,9 @@ public partial class ReviewerLogin : System.Web.UI.Page
                         newCookie.Values["u"] = Username.Text;
                         newCookie.Values["p"] = Password.Text;
                         Response.Cookies.Add(newCookie);
+                        HttpCookie paperCookie = new HttpCookie("Papers");
+                        paperCookie.Value = Username.Text;
+                        Response.Cookies.Add(paperCookie);
                         Response.Redirect("PaperSubmit.aspx");
                     }
                     else if(admin ==1)
@@ -57,6 +60,9 @@ public partial class ReviewerLogin : System.Web.UI.Page
                         newCookie.Values["u"] = Username.Text;
                         newCookie.Values["p"] = Password.Text;
                         Response.Cookies.Add(newCookie);
+                        HttpCookie paperCookie = new HttpCookie("Papers");
+                        paperCookie.Value = Username.Text;
+                        Response.Cookies.Add(paperCookie);
                         Response.Redirect("AdminView.aspx");
                     }
                 }
@@ -66,5 +72,9 @@ public partial class ReviewerLogin : System.Web.UI.Page
         }
         
     }
-  
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Register.aspx");
+    }
 }
