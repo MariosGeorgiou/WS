@@ -10,7 +10,7 @@ public partial class PaperSubmit : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+       
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -30,9 +30,22 @@ public partial class PaperSubmit : System.Web.UI.Page
             cmd.Parameters.AddWithValue("@Password", password);
             cmd.Parameters.AddWithValue("@paper", TextBox1.Text);
             int check = cmd.ExecuteNonQuery();
-           cn.Close();
+            cn.Close();
         }
-            
+        string newquery = @"INSERT INTO Papers(username, paper) VALUES (@username, @paper)";
+        using (SqlConnection cn = new SqlConnection(conn)) 
+        using (SqlCommand cmd = new SqlCommand(newquery, cn))
+        {
+            cn.Open();
+            cmd.Parameters.AddWithValue("@Username", username);
+            cmd.Parameters.AddWithValue("@paper", TextBox1.Text);
+            int check = cmd.ExecuteNonQuery();
+            if(check == 1)
+            {
+                Label9.Text = "Paper Submitted";
+            }
+            cn.Close();
+        }
         }
         else
         {
