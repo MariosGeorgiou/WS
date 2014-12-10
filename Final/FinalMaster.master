@@ -47,10 +47,6 @@
             <asp:ContentPlaceHolder id="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False"/>
-<<<<<<< HEAD
-=======
-      
->>>>>>> origin/master
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </article>

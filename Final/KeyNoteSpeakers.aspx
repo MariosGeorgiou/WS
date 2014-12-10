@@ -28,7 +28,7 @@
         <table>
             
             <tr>
-                <td><img src="images/gates_speaker2.jpg" alt="stallman" class="speaker_image"/></td>
+                <td><img src="images/gates_speaker2.jpg" alt="gates" class="speaker_image"/></td>
                 <td style="vertical-align: top; padding: 0px 10px 0px 15px; text-align: justify;"  >
                     <p> William Henry "Bill" Gates III (born 28 October 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor.[3][4][5] Gates is the former chief executive and chairman of Microsoft, the world’s largest personal-computer software company, which he co-founded with Paul Allen.</p>
                     <p> He became one of the richest men in the world and a major philanthropist through the Bill &amp; Melinda Gates Foundation.</p>
