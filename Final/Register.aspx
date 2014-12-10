@@ -7,7 +7,7 @@
     <asp:Label ID="Label1" runat="server">Username: </asp:Label><asp:Textbox ID="Username" runat="server"></asp:Textbox>
     
     <br />
-    <asp:Label ID="Label2" runat="server">Password: </asp:Label><asp:Textbox ID="Password" runat="server"></asp:Textbox>
+    <asp:Label ID="Label2" runat="server">Password: </asp:Label><asp:Textbox ID="Password" runat="server" TextMode="Password"></asp:Textbox>
     <br />
     <asp:Label ID ="test" runat="server"></asp:Label>
     <br />
