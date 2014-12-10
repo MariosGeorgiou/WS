@@ -15,7 +15,7 @@
     <asp:Label ID="Label5" runat="server">Affiliation</asp:Label><asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><br />
     <asp:Label ID="Label6" runat="server">Address</asp:Label><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox><br />
     <asp:Label ID="Label7" runat="server">Email</asp:Label><asp:TextBox ID="TextBox6" runat="server"></asp:TextBox><br />
-    <asp:Button ID="Button1" runat="server" Text="Upload" />
+    <asp:Button ID="Button1" runat="server" Text="Upload" OnClick="Button1_Click" />
 
 </asp:Content>
 

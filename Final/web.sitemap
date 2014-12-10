@@ -12,7 +12,7 @@
     <siteMapNode url="Dates.aspx" title="Important Dates"/>
     <siteMapNode url="MajorAreas.aspx" title="Major Areas"/>
     <siteMapNode url="PaperSubmit.aspx" title="Paper Submission"/>
-    <siteMapNode url="ReviewerLogin.aspx" title="Reviewer Login"/>
+    <siteMapNode url="ReviewerLogin.aspx" title="Login"/>
     <siteMapNode url="Registration.aspx" title="Online Registration"/>
     <siteMapNode url="Conference.aspx" title="Conference Program"/>
     <siteMapNode url="Guidelines.aspx" title="Guidelines"/>
