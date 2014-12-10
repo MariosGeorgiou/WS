@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-  <siteMapNode url="GIAbout.aspx" title="About">
-
+  <siteMapNode url="#" title="Main"  description="">
+    <siteMapNode url="GIAbout.aspx" title="Home Page"/>
     <siteMapNode url="KeyNoteSpeakers.aspx" title="Keynote Speakers"  description="" />
     <siteMapNode url="GeneralInformation.aspx" title="General Information"  description="" >
      

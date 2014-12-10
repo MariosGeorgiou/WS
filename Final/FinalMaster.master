@@ -18,7 +18,6 @@
 </head>
 <body>
      <form id="form1" runat="server">
-         <div></div>
         <header>
             <img alt="header image" class="head_image" src="images/IT-1.jpg" />
         </header>
@@ -48,7 +47,6 @@
             <asp:ContentPlaceHolder id="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False"/>
-            <strong>test section</strong>
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </article>
