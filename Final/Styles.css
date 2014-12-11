@@ -31,13 +31,6 @@ nav{
     margin: 0 auto;
 }
 
-.menu{
-    color: white;
-    text-decoration:none;
-}
-.menu:hover{
-    color: blue;
-}
 article {
     background-image: url('images/blue_background_1.jpg');
     width: 1200px;
@@ -76,6 +69,8 @@ footer{
 
 h1{
     text-align:center;
+    font-size: xx-large;
+    font-variant: small-caps;
 }
 
 .speaker_image{
@@ -86,8 +81,8 @@ h1{
     background-image: url('images/loginFrame.png');
     background-repeat: no-repeat;
     width:320px;
-    height:230px;
-    padding: 60px 50px; 
+    height:290px;
+    padding: 30px 50px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -97,4 +92,27 @@ h1{
     height:43px;
     margin: 0 auto;
     clear:both;
+}
+
+.register_frame {
+    border: 2px solid #ff0000;
+    padding: 10px 40px; 
+    background-color:#F5F5F5;
+    width: 300px;
+    min-height:230px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_frame {
+    border: 3px solid #ff0000;
+    padding: 10px 40px; 
+    width: 900px;
+    min-height:350px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 5px 20px;
+    font-size: large;
 }

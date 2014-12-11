@@ -22,14 +22,17 @@
          <br />
         <nav>
             <div class="nav_inside">
-            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" Height="50px" Orientation="Horizontal" StaticSubMenuIndent="10px">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" BackColor="#B5C7DE" DynamicHorizontalOffset="5" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" Height="50px" Orientation="Horizontal" StaticSubMenuIndent="10px" Width="1200px">
                 <DynamicHoverStyle BackColor="Black" ForeColor="White" />
                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <DynamicMenuStyle BackColor="#B5C7DE" />
                 <DynamicSelectedStyle BackColor="#507CD1" />
-                <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
-                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                <StaticSelectedStyle BackColor="#507CD1" />
+                <LevelSubMenuStyles>
+                    <asp:SubMenuStyle BackColor="#99FF33" Font-Underline="False" />
+                </LevelSubMenuStyles>
+                <StaticHoverStyle BackColor="#284E98" ForeColor="White" BorderColor="Red" BorderStyle="Dotted" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="10px" BackColor="#0066CC" BorderColor="#B5C7DE" BorderStyle="Double" ForeColor="White" Height="20px" />
+                <StaticSelectedStyle BackColor="#284E98" BorderColor="Red" BorderStyle="Solid" ForeColor="White" />
             </asp:Menu>
             </div>             
         </nav>

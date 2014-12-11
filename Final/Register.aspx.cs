@@ -39,13 +39,15 @@ public partial class _Default : System.Web.UI.Page
                 if(check == 1)
                 {
                     test.Text = "Registration Successful, Please Return to the Login Page.";
+                    test1.Text = "";
                 }
                 }
                 
             }
             else
             {
-                test.Text = "Username already in use.";
+                test.Text = "";
+                test1.Text = "Username already in use.";
 
             }
 

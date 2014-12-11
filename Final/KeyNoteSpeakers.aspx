@@ -4,9 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
     <br />
-    <h1 style="font-size: xx-large">
-        Announcing our Keynote Speakers
-    </h1>
+    <h1>Announcing our Keynote Speakers</h1>
     <div class="speakers_frame">
         <h2>Richard Stallman </h2><p style="font-size: large">will be presenting <strong>Free as in Freedom and the Free Software Revolution</strong> </p>
         <table>
