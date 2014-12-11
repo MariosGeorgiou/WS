@@ -122,3 +122,13 @@ h1{
     padding: 10px 20px 5px 20px;
     font-size: large;
 }
+
+.countdown {
+    background-image: url('images/lv_banner.jpg');
+    background-repeat: no-repeat;
+    width:890px;
+    height:250px;
+    padding: 85px 470px; 
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -33,7 +33,7 @@
                     <asp:SubMenuStyle BackColor="#B5C7DE" Font-Underline="False" />
                 </LevelSubMenuStyles>
                 <StaticHoverStyle BackColor="#284E98" ForeColor="White" BorderColor="Red" BorderStyle="Dotted" />
-                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="10px" BackColor="#0066CC" BorderColor="#B5C7DE" BorderStyle="Double" ForeColor="White" Height="20px" />
+                <StaticMenuItemStyle HorizontalPadding="10px" VerticalPadding="10px" BackColor="#0066CC" BorderColor="#B5C7DE" BorderStyle="Double" ForeColor="White" Height="20px" />
                 <StaticSelectedStyle BackColor="#284E98" BorderColor="Red" BorderStyle="Solid" ForeColor="White" />
             </asp:Menu>
             </div>             
