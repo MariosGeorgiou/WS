@@ -3,23 +3,66 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
-    
-    <asp:Label ID="title" runat="server">Title of Paper</asp:Label><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-    <br />
-    <asp:Label ID="Label1" runat="server">Topic of Paper</asp:Label><asp:TextBox ID="TextBox7" runat="server"></asp:TextBox><br />
-    <asp:Label ID="Label2" runat="server">Sub-Topic</asp:Label><asp:TextBox ID="TextBox8" runat="server"></asp:TextBox><br />
-    <asp:Label ID="Label3" runat="server">Last Name</asp:Label><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
-    <asp:Label ID="Label4" runat="server">First Name</asp:Label><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br />
-    <asp:Label ID="Label5" runat="server">Affiliation</asp:Label><asp:TextBox ID="TextBox4" runat="server"></asp:TextBox><br />
-    <asp:Label ID="Label6" runat="server">Address</asp:Label><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox><br />
-    <asp:Label ID="Label7" runat="server">Email</asp:Label><asp:TextBox ID="TextBox6" runat="server"></asp:TextBox><br />
-     
-    <asp:Button ID="Button1" runat="server" Text="Upload" OnClick="Button1_Click" />
-    <br />
-    <br />
-    <asp:Label ID="Label9" runat="server" ></asp:Label>
-    <br />
-    <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" CellPadding="4" DataKeyNames="Id" DataMember="DefaultView" DataSourceID="SqlDataSource1" EnablePagingCallbacks="True" ForeColor="#333333" GridLines="None" Height="50px" Width="125px">
+    <h1>Paper Submission</h1>
+    <div class="main_frame">
+        <table style="cellpadding="10px" cellspacing="30px" align="center" ">
+               <tr>
+                   <td><h3>You need to be Logged in to submit a paper</h3></td>
+                </tr>
+            <tr>
+                <td>
+                    <p>All fiels are Required</p>
+                </td>
+            </tr>
+            </table>
+        <table style="cellpadding="10px" cellspacing="30px" align="center" ">
+               <tr>
+                   <td><asp:Label ID="title" runat="server">Title of Paper</asp:Label></td>
+                   <td><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
+               </tr>
+            <tr>
+                <td><asp:Label ID="Label1" runat="server">Topic of Paper</asp:Label></td>
+                <td><asp:TextBox ID="TextBox7" runat="server"></asp:TextBox></td>
+            </tr>
+               <tr>
+                   <td><asp:Label ID="Label2" runat="server">Sub-Topic</asp:Label></td>
+                   <td><asp:TextBox ID="TextBox8" runat="server"></asp:TextBox></td>
+               </tr>
+            <tr>
+                   <td><asp:Label ID="Label3" runat="server">Last Name</asp:Label></td>
+                   <td><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></td>
+               </tr>
+            <tr>
+                   <td><asp:Label ID="Label4" runat="server">First Name</asp:Label></td>
+                   <td><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></td>
+               </tr>
+            <tr>
+                   <td><asp:Label ID="Label5" runat="server">Affiliation</asp:Label></td>
+                   <td><asp:TextBox ID="TextBox4" runat="server"></asp:TextBox></td>
+               </tr>
+            <tr>
+                   <td><asp:Label ID="Label6" runat="server">Address</asp:Label></td>
+                   <td><asp:TextBox ID="TextBox5" runat="server"></asp:TextBox></td>
+               </tr>
+            <tr>
+                   <td><asp:Label ID="Label7" runat="server">Email</asp:Label></td>
+                   <td><asp:TextBox ID="TextBox6" runat="server"></asp:TextBox></td>
+               </tr>
+            <tr>
+                <td></td>
+                <td><asp:Button ID="Button1" runat="server" Text="Upload" OnClick="Button1_Click" /></td>
+            </tr>
+           </table>
+        <br />
+        <table style="cellpadding="10px" cellspacing="30px" align="center" ">
+               <tr>
+                   <td>
+                        <asp:Label ID="Label9" runat="server" ></asp:Label>
+                   </td>
+               </tr>
+            <tr>
+                <td>
+                    <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" CellPadding="4" DataKeyNames="Id" DataMember="DefaultView" DataSourceID="SqlDataSource1" EnablePagingCallbacks="True" ForeColor="#333333" GridLines="None" Height="50px" Width="125px">
         <AlternatingRowStyle BackColor="White" />
         <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
         <EditRowStyle BackColor="#2461BF" />
@@ -52,9 +95,14 @@
             <asp:Parameter Name="Id" Type="Int32" />
         </UpdateParameters>
     </asp:SqlDataSource>
+                </td>
+            </tr>
+        </table>
+
+    
     <br />
     
-   
+   </div>
     
 
 </asp:Content>
