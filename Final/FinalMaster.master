@@ -13,12 +13,15 @@
 <body>
      <form id="form1" runat="server">
          <div class="above_header">
-             <a href="ReviewerLogin.aspx"><img src="images/login_image.png" style="float: right" height="40px" width="170px" /></a>&nbsp;&nbsp;&nbsp;
-             <a href="Register.aspx"><img src="images/register_image.png" style="float: right" height="40px" width="150px"/></a>
+             <a href="ReviewerLogin.aspx"><img src="images/login_image.png" style="float: right" height="30px" width="130px" /></a>&nbsp;&nbsp;&nbsp;
+             <a href="Register.aspx"><img src="images/register_image.png" style="float: right" height="30px" width="130px"/></a>
          </div>
         <header>
             <img alt="header image" class="head_image" src="images/IT-1.jpg" />
         </header>
+         <div class="below_header">
+             <img src="images/banner_location_1.png" width="900px" height="70px" style="float: right" />
+         </div>
          <br />
         <nav>
             <div class="nav_inside">
