@@ -9,20 +9,19 @@
     </asp:ContentPlaceHolder>
     <link href="Styles.css" rel="stylesheet" type="text/css" />
    
-    <style type="text/css">
-        .line {
-            height: 7px;
-        }
-    </style>
-   
 </head>
 <body>
      <form id="form1" runat="server">
+         <div class="above_header">
+             <a href="ReviewerLogin.aspx"><img src="images/login_image.png" style="float: right" height="40px" width="170px" /></a>&nbsp;&nbsp;&nbsp;
+             <a href="Register.aspx"><img src="images/register_image.png" style="float: right" height="40px" width="150px"/></a>
+         </div>
         <header>
             <img alt="header image" class="head_image" src="images/IT-1.jpg" />
         </header>
-
-        <nav>          
+         <br />
+        <nav>
+            <div class="nav_inside">
             <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" Height="50px" Orientation="Horizontal" StaticSubMenuIndent="10px">
                 <DynamicHoverStyle BackColor="Black" ForeColor="White" />
                 <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -32,9 +31,9 @@
                 <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <StaticSelectedStyle BackColor="#507CD1" />
             </asp:Menu>
-           
+            </div>             
         </nav>
-         
+         <br />
         <article>
             <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
                 <CurrentNodeStyle ForeColor="#333333" />
@@ -42,7 +41,6 @@
                 <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
                 <RootNodeStyle Font-Bold="True" ForeColor="#5D7B9D" />
             </asp:SiteMapPath>
-            <br />
             <br />
             <asp:ContentPlaceHolder id="MainContent" runat="server">
             </asp:ContentPlaceHolder>
