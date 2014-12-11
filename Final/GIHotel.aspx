@@ -6,12 +6,13 @@
   <h1>Hotel Information</h1>
      <div class="main_frame">
 
-     <div>Hotel Rates:</div>
+     <h3>Hotel Rates:</h3>
     <asp:BulletedList ID="BulletedList1" runat="server">
         <asp:ListItem>Standard: $139 / night</asp:ListItem>
         <asp:ListItem>Early Bird: $119 / night</asp:ListItem>
     </asp:BulletedList>
-    <div>Book a Room:</div>
+         <br /><br />
+    <h3>Book a Room:</h3>
     <br />
     <asp:Label ID="Label1" runat="server" Text="Label">Type of Bed</asp:Label>
     :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -49,8 +50,14 @@
             <asp:TableCell><asp:Calendar ID="Calendar2" runat="server"></asp:Calendar></asp:TableCell>
         </asp:TableRow>
     </asp:Table>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Book Room" />
-   
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Book Room" />
+   <br /><br />
    </div>
     
     
