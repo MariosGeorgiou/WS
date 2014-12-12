@@ -13,6 +13,7 @@
 <body>
      <form id="form1" runat="server">
          <div class="above_header">
+             <a href="Home.aspx"><img src="images/logout.png" style="float: right" height="30px" width="100px" /></a>&nbsp;&nbsp;&nbsp;
              <a href="ReviewerLogin.aspx"><img src="images/login_image.png" style="float: right" height="30px" width="130px" /></a>&nbsp;&nbsp;&nbsp;
              <a href="Register.aspx"><img src="images/register_image.png" style="float: right" height="30px" width="130px"/></a>
          </div>
